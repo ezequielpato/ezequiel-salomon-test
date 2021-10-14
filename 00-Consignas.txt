@@ -10,8 +10,16 @@ Punto 1:
   a- A través de que extension de archivo se genera un script de python. Ejemplifique.
   b- Definir con sus palabras que es una variable?
 
+---
 
+Respuestas Punto 1:
+  a- A través de la extensión ".py" - Ejemplo: "ejercicio.py"
 
+  b- Una variable es una herramienta muy útil en todo lenguaje de programación. La misma es un espacio de memoria
+  en la cual podemos almacenar datos y asigarle una "palabra clave" como nombre.
+  Existen variables que pueden mutar a lo largo del código y otras que no, llamadas constantes.
+
+---
 
 ___________________________________________________________________________________
 
