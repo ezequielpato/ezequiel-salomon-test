@@ -128,12 +128,17 @@ Punto 4:
     d- Genere un ejemplo del bucle "while" en el cual se imprima 5 veces la siguiente
         frase por consola: "La condición se cumplio."
 
+---
 
+Respuestas punto 4:
 
+a- La iteración de un bucle for se interrumpe al recorrerse todos los indices de un elemento.
+O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
 
+b- La iteración de un bucle while se termina cuando la condición del mismo deje de cumplirse.
+O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
 
-
-
+---
 
 ___________________________________________________________________________________
 
