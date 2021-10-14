@@ -15,8 +15,8 @@ Punto 1:
 Respuestas Punto 1:
   a- A través de la extensión ".py" - Ejemplo: "ejercicio.py"
 
-  b- Una variable es una herramienta muy útil en todo lenguaje de programación. La misma es un espacio de memoria
-  en la cual podemos almacenar datos y asigarle una "palabra clave" como nombre.
+  b- Una variable es una herramienta muy útil en todo lenguaje de programación. 
+  La misma es un espacio de memoria en el cual podemos almacenar datos y asigarle una "palabra clave" como nombre.
   Existen variables que pueden mutar a lo largo del código y otras que no, llamadas constantes.
 
 ---
@@ -24,10 +24,25 @@ Respuestas Punto 1:
 ___________________________________________________________________________________
 
 Punto 2:
-  a- Enumere los tipos de datos primitivos. 
+  a- Enumere los tipos de datos primitivos.
      Cual es la diferencia entre el tipo Int y Float
-  b- Enumere los tipos de colecciones que conoce. 
-     Cual es la diferencia entre los tipos list y tuple  
+  b- Enumere los tipos de colecciones que conoce.
+     Cual es la diferencia entre los tipos list y tuple
+
+---
+
+Respuestas Punto 2:
+
+  a- Los datos primitivos conocidos son : Números(Int), Números decimales(Float), Cadenas(String), Booleanos(Boolean)
+
+  b- Las colecciones conocidas son : Listas, Tuplas, Diccionarios.
+  Las diferencias que existen entre list y tuple son: 
+  -Las Tuplas son inmutables, estáticas.
+  -Las listas son dinámicas.
+
+---
+
+
 
 
 
