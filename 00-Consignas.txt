@@ -12,17 +12,17 @@ Punto 1:
 
 ---
 
-Respuestas Punto 1:
+Respuestas punto 1:
   a- A través de la extensión ".py" - Ejemplo: "ejercicio.py"
 
   b- Una variable es una herramienta muy útil en todo lenguaje de programación.
-  La misma es un espacio de memoria en el cual podemos almacenar datos y asigarle una "palabra clave" como nombre.
-  Existen variables que pueden mutar a lo largo del código y otras que no, llamadas constantes.
+      La misma es un espacio de memoria en el cual podemos almacenar datos y asigarle una "palabra clave" como nombre.
+      Existen variables que pueden mutar a lo largo del código y otras que no, llamadas constantes.
 
----
+
+
 
 ___________________________________________________________________________________
-
 Punto 2:
   a- Enumere los tipos de datos primitivos.
      Cual es la diferencia entre el tipo Int y Float
@@ -31,20 +31,20 @@ Punto 2:
 
 ---
 
-Respuestas Punto 2:
+Respuestas punto 2:
 
   a- Los datos primitivos conocidos son : Números(Int), Números decimales(Float), Cadenas(String), Booleanos(Boolean)
 
   b- Las colecciones conocidas son : Listas, Tuplas, Diccionarios.
-  Las diferencias que existen entre list y tuple son:
+      Las diferencias que existen entre list y tuple son:
 
-  -Las Tuplas son inmutables, estáticas.
-  -Las listas son dinámicas.
+      -Las Tuplas son inmutables, estáticas.
+      -Las listas son dinámicas.
 
----
+
+
 
 ___________________________________________________________________________________
-
 Punto 3:
   Las estructuras selectivas nos permiten tomar desiciones logicas, es decir, se evalua
   una condición y en función del resultado se realizarán una determinada serie de instruciones.
@@ -86,36 +86,29 @@ Punto 3:
 
 ---
 
-Respuestas Punto 3:
+Respuestas punto 3:
 
 a- El print mostrado en pantalla es "Ha ingresado a la segunda validación."
-Esto se debe a que la primera validación que se cumple es:
+    Esto se debe a que la primera validación que se cumple es:
 
 elif mi_variable > 3:
-  print("Ha ingresado a la segunda validación.")
+    print("Ha ingresado a la segunda validación.")
 
-Ya que "mi_variable = 4"
+    Ya que "mi_variable = 4"
 
 Luego se interrumpe el programa.
 
 
 b- En este caso el print mostrado en pantalla es el mismo.
 
-Esto se debe a que en la lógica del programa la condición "elif mi_variable > 3", al ser "mi_variable = 7",
-se cumple y el programa se interrumpe.
-La condicion  "elif mi_variable > 6"  No llega a comprobarse.
-
----
-
-
-
-
+    Esto se debe a que en la lógica del programa la condición "elif mi_variable > 3", al ser "mi_variable = 7",
+    se cumple y el programa se interrumpe.
+    La condicion  "elif mi_variable > 6"  No llega a comprobarse.
 
 
 
 
 ___________________________________________________________________________________
-
 Punto 4:
   Los bucles de iteración nos sirven para recorrer las colecciones.
   Con sus palabra responda:
@@ -133,15 +126,15 @@ Punto 4:
 Respuestas punto 4:
 
 a- La iteración de un bucle for se interrumpe al recorrerse todos los indices de un elemento.
-O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
+    O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
 
 b- La iteración de un bucle while se termina cuando la condición del mismo deje de cumplirse.
-O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
+    O cuando, debido a una condición pre establecida, se utiliza una instrucción break.
 
----
+
+
 
 ___________________________________________________________________________________
-
 Punto 5:
   a- Git es un sistema para el control de versiones de nuestro codigo. Cuales son las
     areas que lo componen?
@@ -151,18 +144,40 @@ Punto 5:
     el repositorio remoto con que comando empujamos nuestros cambios?
   e- Si quisieramos traernos los cambios del repositorio remoto que comando usariamos?
 
+Respuestas punto 5:
+
+a- Las areas de trabajo que componen a Git son:
+
+    - Working Directory
+    - Staging Area.
+
+b- El comando a utilizar es:
+
+    - git add <filename> (solo archivo especificado)
+    - git add . (todos los archivos que fueron modificados)
+
+c- Un comentario se genera con el siguiente comando:
+
+    - git commit -m "Texto descriptivo del comentario"
+
+Es necesario hacer un commit después de haber añadido los cambios con el comando "git add"
+
+d- Nuestros cambios son subidos al repositorio remoto con el siguiente comando :
+
+    - git push origin <branch>
+
+e- Para descargar los nuevos cambios de un repositorio remoto utilizamos el siguiente comando :
+
+    - git pull origin <branch>
 
 
 
 
 
-
-
-
+#Continuar en punto 6
 
 
 ___________________________________________________________________________________
-
 Punto 6:
   Las funciones nos permiten modularizar bloques de codigo y aporta a la reutilización
   del mismo.
