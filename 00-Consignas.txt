@@ -6,6 +6,9 @@
 
 """                                                                               """
 
+
+
+___________________________________________________________________________________
 Punto 1:
   a- A través de que extension de archivo se genera un script de python. Ejemplifique.
   b- Definir con sus palabras que es una variable?
@@ -22,6 +25,9 @@ Respuestas punto 1:
 
 
 
+
+
+
 ___________________________________________________________________________________
 Punto 2:
   a- Enumere los tipos de datos primitivos.
@@ -33,13 +39,17 @@ Punto 2:
 
 Respuestas punto 2:
 
-  a- Los datos primitivos conocidos son : Números(Int), Números decimales(Float), Cadenas(String), Booleanos(Boolean)
+  a- Los datos primitivos conocidos son : Números(Int), Números decimales(Float), Cadenas(String), Booleanos(Boolean), None Type
 
   b- Las colecciones conocidas son : Listas, Tuplas, Diccionarios.
       Las diferencias que existen entre list y tuple son:
 
       -Las Tuplas son inmutables, estáticas.
       -Las listas son dinámicas.
+
+
+
+
 
 
 
@@ -84,12 +94,15 @@ Punto 3:
     Cual y porque es el print que se muestra por consola? Describa el resultado.
     Puede hacer uso del debug.
 
+
+
 ---
 
 Respuestas punto 3:
 
 a- El print mostrado en pantalla es "Ha ingresado a la segunda validación."
-    Esto se debe a que la primera validación que se cumple es:
+    La estructura if-elif-else ejecutra el primer match coincidente.
+    La primera validación que se cumple es:
 
 elif mi_variable > 3:
     print("Ha ingresado a la segunda validación.")
@@ -108,6 +121,12 @@ b- En este caso el print mostrado en pantalla es el mismo.
 
 
 
+
+
+
+
+
+
 ___________________________________________________________________________________
 Punto 4:
   Los bucles de iteración nos sirven para recorrer las colecciones.
@@ -120,6 +139,8 @@ Punto 4:
         y los imprima por consola.
     d- Genere un ejemplo del bucle "while" en el cual se imprima 5 veces la siguiente
         frase por consola: "La condición se cumplio."
+
+
 
 ---
 
@@ -134,6 +155,11 @@ b- La iteración de un bucle while se termina cuando la condición del mismo dej
 
 
 
+
+
+
+
+
 ___________________________________________________________________________________
 Punto 5:
   a- Git es un sistema para el control de versiones de nuestro codigo. Cuales son las
@@ -143,6 +169,9 @@ Punto 5:
   d- GitHub nos permite alojar los projectos en la nube. Una vez enlazado el proyecto local con
     el repositorio remoto con que comando empujamos nuestros cambios?
   e- Si quisieramos traernos los cambios del repositorio remoto que comando usariamos?
+
+
+---
 
 Respuestas punto 5:
 
@@ -190,6 +219,9 @@ Punto 6:
   b- Las funciones de orden superior reciben como parametro otras funciones. Enumere cuales conoce
      y describa brevemente para que sirve cada una.
 
+---
+
+Respuestas punto 6:
 
 
 
